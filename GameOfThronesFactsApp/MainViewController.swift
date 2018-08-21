@@ -7,29 +7,34 @@
 //
 
 import UIKit
+import LBTAComponents
 
 
 class MainViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
-
+    
     private let cellId = "cellId"
     private var areBookmarksEnabled = false
     
     var arrayOfComplexCharacters: [ComplexCharacter] = []
     var filteredArray: [ComplexCharacter] = []
     var selectedArray: [ComplexCharacter] = []
-    
-    var index: IndexPath = IndexPath()
+    var cachedImagesArray: [CachedImageView] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView?.backgroundColor = UIColor.white
-        collectionView?.alwaysBounceVertical = true
-        collectionView?.register(CharacterCell.self, forCellWithReuseIdentifier: cellId)
+        setupCollectionView()
         
         let wikiURL = "https://gameofthrones.wikia.com/api/v1/Articles/Top?expand=1&category=Articles&limit=65"
         getWikiFrom(urlString: wikiURL)
         provideNavigationBar()
+    }
+    
+    func setupCollectionView() {
+        collectionView?.backgroundColor = UIColor.white
+        collectionView?.alwaysBounceVertical = true
+        collectionView?.register(CharacterCell.self, forCellWithReuseIdentifier: cellId)
+        
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -42,40 +47,32 @@ class MainViewController: UICollectionViewController, UICollectionViewDelegateFl
         
     }
     
-    @objc func longPressed(sender: UILongPressGestureRecognizer)
-    {
+    @objc func longPressed(sender: UILongPressGestureRecognizer) {
+        var indexPath: IndexPath?
         if sender.state == .began {
-             print("long press \(index.row)")
+            let point = sender.location(in: self.view)
+            indexPath = collectionView?.indexPathForItem(at: point)
         }
-       
-        let cell = collectionView?.cellForItem(at: index) as! CharacterCell
-
         
-        // cell.constraintToModify =
-        // constraint jako zmienna
-        // constant = 10
+        guard let index = indexPath else {
+            return
+        }
+        
+        let cell = collectionView?.cellForItem(at: IndexPath(row: index.row - 1, section: 0)) as! CharacterCell
+      
+        cell.containerView.layoutIfNeeded()
         UIView.animate(withDuration: 0.3, animations: {
-            //constraint.constant = 20
-            // cell.containerView.addConstraint()
-            self.collectionView?.removeConstraints(cell.constraintToDelete!)
-            // cell.containerView.removeConstraints(cell.constraintToDelete!)
-            cell.characterDetail.numberOfLines = 2
+            cell.characterDetail.numberOfLines = 0
+            cell.containerView.removeConstraints(cell.c!)
             cell.containerView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0][v1(40)]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": cell.characterTitle,"v1": cell.characterDetail]))
-            
-            
-             //containerView.addConstraintsWithFormat(format: "V:|[v0][v1(40)]|", views: characterTitle,characterDetail)
+            cell.containerView.layoutIfNeeded()
         })
-        
-        
-       
-        
     }
+    
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-       
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CharacterCell
-        index = indexPath
         
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CharacterCell
         collectionView.isUserInteractionEnabled = true
         cell.isUserInteractionEnabled = true
         let longPressRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(longPressed(sender:)))
@@ -96,7 +93,8 @@ class MainViewController: UICollectionViewController, UICollectionViewDelegateFl
         }
         cell.characterTitle.text = selectedArray[indexPath.row].character.title
         cell.characterDetail.text = selectedArray[indexPath.row].character.abstract
-        cell.characterImageView.image = selectedArray[indexPath.row].profileImage
+        
+        cell.characterImageView.loadImage(urlString: selectedArray[indexPath.row].character.thumbnail)
         
         return cell
     }
@@ -115,16 +113,23 @@ class MainViewController: UICollectionViewController, UICollectionViewDelegateFl
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-      
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
+        collectionView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1.0).isActive = true
+        collectionView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 1.0).isActive = true
+        collectionView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        collectionView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        
         let controller = DetailViewController()
         controller.character = selectedArray[indexPath.row].character
-        controller.characterImage = selectedArray[indexPath.row].profileImage
+        controller.characterImageView.loadImage(urlString: selectedArray[indexPath.row].character.thumbnail)
         controller.isFavorite = selectedArray[indexPath.row].isfavoriteImg
         navigationController?.pushViewController(controller, animated: true)
     }
     
     func getWikiFrom(urlString: String){
         guard let url = URL(string: urlString) else { return  }
+        
+        
         
         URLSession.shared.dataTask(with: url) { [unowned self] data, response, error  in
             
@@ -133,36 +138,23 @@ class MainViewController: UICollectionViewController, UICollectionViewDelegateFl
                 do {
                     let description = try JSONDecoder().decode(WebsiteDescription.self, from: data)
                     for item in description.items {
-                        self.arrayOfComplexCharacters.append(ComplexCharacter(character: item, profileImage: self.retrieveImageFrom(urlString: item.thumbnail), isfavoriteImg: false))
+                        self.arrayOfComplexCharacters.append(ComplexCharacter(character: item, isfavoriteImg: false))
                     }
                 } catch let jsonErr {
                     print("Error while decoding json: \(jsonErr)")
                 }
                 if let collection = self.collectionView {
-                  collection.reloadData()
+                    collection.reloadData()
                 }
             }
-        }.resume()
-    }
-    
-    func retrieveImageFrom(urlString: String) -> UIImage {
-        if let url = URL(string: urlString) {
-            let data = try? Data(contentsOf: url)
-            
-            if let imageData = data {
-                if let image = UIImage(data: imageData) {
-                    return image
-                }
-            }
-        }
-        return UIImage()
+            }.resume()
     }
     
     func provideNavigationBar() {
         
         navigationItem.title = "Game Of Thrones Wiki"
-         let favoritesRightButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.bookmarks, target: self, action: #selector(pressedFavoriteBookmarks(sender:)))
-         navigationItem.rightBarButtonItem = favoritesRightButton
+        let favoritesRightButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.bookmarks, target: self, action: #selector(pressedFavoriteBookmarks(sender:)))
+        navigationItem.rightBarButtonItem = favoritesRightButton
     }
     
     @objc func pressedFavoriteBookmarks(sender: Any) {
@@ -170,7 +162,7 @@ class MainViewController: UICollectionViewController, UICollectionViewDelegateFl
         self.collectionView?.reloadData()
     }
     
- 
+    
 }
 
 class FavoriteButton: UIButton {
@@ -190,15 +182,14 @@ struct Character: Decodable {
 
 struct ComplexCharacter {
     var character: Character
-    var profileImage: UIImage
-    var isfavoriteImg: Bool 
-
+    var isfavoriteImg: Bool
+    
 }
 
 class CharacterCell: BaseClass {
 
-    let characterImageView: UIImageView = {
-        let imageView = UIImageView()
+    let characterImageView: CachedImageView = {
+        let imageView = CachedImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.layer.cornerRadius = 34
         imageView.layer.masksToBounds = true
@@ -227,12 +218,12 @@ class CharacterCell: BaseClass {
     
     let favoriteButton: FavoriteButton = {
         let favoriteButton = FavoriteButton()
-       
+        
         return favoriteButton
     }()
     
     let containerView = UIView()
-    
+    var c: [NSLayoutConstraint]?
     var constraintToDelete: [NSLayoutConstraint]?
     
     override func setupViews(){
@@ -251,7 +242,6 @@ class CharacterCell: BaseClass {
     }
     
     private func setupContainerView() {
-       
         containerView.isUserInteractionEnabled = true
         addSubview(containerView)
         
@@ -262,16 +252,14 @@ class CharacterCell: BaseClass {
         containerView.addSubview(characterTitle)
         containerView.addSubview(characterDetail)
         containerView.addSubview(favoriteButton)
-       
+        
         containerView.addConstraintsWithFormat(format: "H:|[v0][v1(20)]-30-|", views: characterTitle,favoriteButton)
-        containerView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0][v1(20)]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": characterTitle,"v1": characterDetail]))
-        constraintToDelete = NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0][v1(20)]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": characterTitle,"v1": characterDetail])
-        constraintToDelete?.removeAll()
-        // containerView.constraints.
+        
+        c = NSLayoutConstraint.constraints(withVisualFormat: "V:|[v0][v1(20)]|", options: NSLayoutFormatOptions(), metrics: nil, views: ["v0": characterTitle,"v1": characterDetail])
+        
+        containerView.addConstraints(c!)
         containerView.addConstraintsWithFormat(format: "H:|[v0]-25-|", views: characterDetail)
         containerView.addConstraintsWithFormat(format: "V:|-10-[v0(20)]", views: favoriteButton)
-        
-        
     }
 }
 
@@ -284,12 +272,10 @@ extension UIView {
             viewsDictionary[key] = view
             view.translatesAutoresizingMaskIntoConstraints = false
         }
-
+        
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutFormatOptions(), metrics: nil, views: viewsDictionary))
     }
 }
-
-
 
 class BaseClass: UICollectionViewCell {
     override init(frame: CGRect) {

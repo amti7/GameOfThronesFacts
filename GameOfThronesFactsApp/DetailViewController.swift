@@ -7,18 +7,17 @@
 //
 
 import UIKit
+import LBTAComponents
+
 
 class DetailViewController: UIViewController {
     
     var character: Character?
-    var characterImage: UIImage?
     var isFavorite: Bool?
     
-    let characterImageView: UIImageView = {
-        let characterImageView = UIImageView()
+    let characterImageView: CachedImageView = {
+        let characterImageView = CachedImageView()
         characterImageView.contentMode = .scaleAspectFill
-        characterImageView.layer.cornerRadius = 34
-        characterImageView.layer.masksToBounds = true
         characterImageView.contentMode = .scaleAspectFit
         characterImageView.translatesAutoresizingMaskIntoConstraints = false
         return characterImageView
@@ -26,9 +25,7 @@ class DetailViewController: UIViewController {
     
     let favoriteImage: UIImageView = {
         let favoriteImage = UIImageView()
-        
         favoriteImage.translatesAutoresizingMaskIntoConstraints = false
-        
         return favoriteImage
     }()
 
@@ -76,7 +73,6 @@ class DetailViewController: UIViewController {
         self.view.addSubview(characterDetail)
         self.view.addSubview(checkOnlineButton)
         
-        characterImageView.image = characterImage
         checkOnlineButton.setTitle("Show more informations", for: .normal)
         checkOnlineButton.addTarget(self, action: #selector(openSafariAction), for: .touchUpInside)
 
@@ -91,7 +87,15 @@ class DetailViewController: UIViewController {
     
     @objc func openSafariAction(sender: UIButton!) {
         let urlStringForUser = provideUrlWhenButtonClicked()
-        UIApplication.shared.openURL(URL(string: urlStringForUser)!)
+        if let url = URL(string: urlStringForUser) {
+             UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+//            let alertController = UIAlertController(title: "Error", message: "No Internet Connection", preferredStyle: .alert)
+//            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
+//            alertController.addAction(okAction)
+//            self.present(alertController, animated: true, completion: nil)
+        }
+        
     }
     
     func provideUrlWhenButtonClicked() -> String {
@@ -118,6 +122,7 @@ class DetailViewController: UIViewController {
         topImageViewContainer.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         
         topImageViewContainer.addSubview(characterImageView)
+        
         characterImageView.centerXAnchor.constraint(equalTo: topImageViewContainer.centerXAnchor).isActive = true
         characterImageView.centerYAnchor.constraint(equalTo: topImageViewContainer.centerYAnchor).isActive = true
         characterImageView.heightAnchor.constraint(equalTo: topImageViewContainer.heightAnchor, multiplier: 0.5).isActive = true

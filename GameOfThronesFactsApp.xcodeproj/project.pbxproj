@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FE77EDA12F71E4D74DAEF1D /* Pods_GameOfThronesFactsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7631A1EA0703D3C4B77F4A4 /* Pods_GameOfThronesFactsApp.framework */; };
 		D73D036D2124A89900BCC9F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D036C2124A89900BCC9F5 /* AppDelegate.swift */; };
 		D73D036F2124A89900BCC9F5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D036E2124A89900BCC9F5 /* MainViewController.swift */; };
 		D73D03742124A89900BCC9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D03732124A89900BCC9F5 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7631A1EA0703D3C4B77F4A4 /* Pods_GameOfThronesFactsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfThronesFactsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D282856D9877D53A9DFBBCB4 /* Pods-GameOfThronesFactsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesFactsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp.release.xcconfig"; sourceTree = "<group>"; };
 		D73D03692124A89900BCC9F5 /* GameOfThronesFactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThronesFactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D036C2124A89900BCC9F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D73D036E2124A89900BCC9F5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D73D03762124A89900BCC9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D73D03782124A89900BCC9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D73D037E2129563200BCC9F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F30F959C5CCE198392CB0FDA /* Pods-GameOfThronesFactsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesFactsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE77EDA12F71E4D74DAEF1D /* Pods_GameOfThronesFactsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6995A45BF64A88129F408098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7631A1EA0703D3C4B77F4A4 /* Pods_GameOfThronesFactsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D73D03602124A89900BCC9F5 = {
 			isa = PBXGroup;
 			children = (
 				D73D036B2124A89900BCC9F5 /* GameOfThronesFactsApp */,
 				D73D036A2124A89900BCC9F5 /* Products */,
+				DD69CD3239B67C06A2A7CD8E /* Pods */,
+				6995A45BF64A88129F408098 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = GameOfThronesFactsApp;
 			sourceTree = "<group>";
 		};
+		DD69CD3239B67C06A2A7CD8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30F959C5CCE198392CB0FDA /* Pods-GameOfThronesFactsApp.debug.xcconfig */,
+				D282856D9877D53A9DFBBCB4 /* Pods-GameOfThronesFactsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D73D037B2124A89900BCC9F5 /* Build configuration list for PBXNativeTarget "GameOfThronesFactsApp" */;
 			buildPhases = (
+				D01F3F1F60D8EC4D2A4ED9E7 /* [CP] Check Pods Manifest.lock */,
 				D73D03652124A89900BCC9F5 /* Sources */,
 				D73D03662124A89900BCC9F5 /* Frameworks */,
 				D73D03672124A89900BCC9F5 /* Resources */,
+				74DF904AA402B456DB0AAB96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74DF904AA402B456DB0AAB96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01F3F1F60D8EC4D2A4ED9E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameOfThronesFactsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D73D03652124A89900BCC9F5 /* Sources */ = {
@@ -264,29 +329,33 @@
 		};
 		D73D037C2124A89900BCC9F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30F959C5CCE198392CB0FDA /* Pods-GameOfThronesFactsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GameOfThronesFactsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kamil.GameOfThronesFactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D73D037D2124A89900BCC9F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D282856D9877D53A9DFBBCB4 /* Pods-GameOfThronesFactsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GameOfThronesFactsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kamil.GameOfThronesFactsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

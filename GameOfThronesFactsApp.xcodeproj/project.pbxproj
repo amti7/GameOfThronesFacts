@@ -8,21 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		5FE77EDA12F71E4D74DAEF1D /* Pods_GameOfThronesFactsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7631A1EA0703D3C4B77F4A4 /* Pods_GameOfThronesFactsApp.framework */; };
+		D7281064213545C700139341 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7281063213545C700139341 /* CharacterCell.swift */; };
+		D72810662135466700139341 /* WebsiteDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72810652135466700139341 /* WebsiteDescription.swift */; };
+		D72810682135487400139341 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72810672135487400139341 /* Character.swift */; };
+		D728106A2135491400139341 /* ComplexCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72810692135491400139341 /* ComplexCharacter.swift */; };
+		D728106C213549E800139341 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D728106B213549E800139341 /* FavoriteButton.swift */; };
 		D73D036D2124A89900BCC9F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D036C2124A89900BCC9F5 /* AppDelegate.swift */; };
 		D73D036F2124A89900BCC9F5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D036E2124A89900BCC9F5 /* MainViewController.swift */; };
 		D73D03742124A89900BCC9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73D03732124A89900BCC9F5 /* Assets.xcassets */; };
-		D73D03772124A89900BCC9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73D03752124A89900BCC9F5 /* LaunchScreen.storyboard */; };
 		D73D037F2129563200BCC9F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73D037E2129563200BCC9F5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7631A1EA0703D3C4B77F4A4 /* Pods_GameOfThronesFactsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfThronesFactsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D282856D9877D53A9DFBBCB4 /* Pods-GameOfThronesFactsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesFactsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp.release.xcconfig"; sourceTree = "<group>"; };
+		D7281063213545C700139341 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		D72810652135466700139341 /* WebsiteDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDescription.swift; sourceTree = "<group>"; };
+		D72810672135487400139341 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D72810692135491400139341 /* ComplexCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexCharacter.swift; sourceTree = "<group>"; };
+		D728106B213549E800139341 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		D73D03692124A89900BCC9F5 /* GameOfThronesFactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThronesFactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73D036C2124A89900BCC9F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D73D036E2124A89900BCC9F5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D73D03732124A89900BCC9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D73D03762124A89900BCC9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D73D03782124A89900BCC9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D73D037E2129563200BCC9F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F30F959C5CCE198392CB0FDA /* Pods-GameOfThronesFactsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesFactsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +56,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D72810602135454600139341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D72810652135466700139341 /* WebsiteDescription.swift */,
+				D72810672135487400139341 /* Character.swift */,
+				D72810692135491400139341 /* ComplexCharacter.swift */,
+				D728106B213549E800139341 /* FavoriteButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D72810612135455700139341 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7281063213545C700139341 /* CharacterCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D72810622135455D00139341 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D73D036E2124A89900BCC9F5 /* MainViewController.swift */,
+				D73D037E2129563200BCC9F5 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D73D03602124A89900BCC9F5 = {
 			isa = PBXGroup;
 			children = (
@@ -70,10 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				D73D036C2124A89900BCC9F5 /* AppDelegate.swift */,
-				D73D036E2124A89900BCC9F5 /* MainViewController.swift */,
-				D73D037E2129563200BCC9F5 /* DetailViewController.swift */,
+				D72810622135455D00139341 /* Controller */,
+				D72810612135455700139341 /* View */,
+				D72810602135454600139341 /* Model */,
 				D73D03732124A89900BCC9F5 /* Assets.xcassets */,
-				D73D03752124A89900BCC9F5 /* LaunchScreen.storyboard */,
 				D73D03782124A89900BCC9F5 /* Info.plist */,
 			);
 			path = GameOfThronesFactsApp;
@@ -149,7 +185,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73D03772124A89900BCC9F5 /* LaunchScreen.storyboard in Resources */,
 				D73D03742124A89900BCC9F5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,24 +235,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72810662135466700139341 /* WebsiteDescription.swift in Sources */,
 				D73D037F2129563200BCC9F5 /* DetailViewController.swift in Sources */,
+				D728106A2135491400139341 /* ComplexCharacter.swift in Sources */,
+				D728106C213549E800139341 /* FavoriteButton.swift in Sources */,
 				D73D036F2124A89900BCC9F5 /* MainViewController.swift in Sources */,
+				D72810682135487400139341 /* Character.swift in Sources */,
 				D73D036D2124A89900BCC9F5 /* AppDelegate.swift in Sources */,
+				D7281064213545C700139341 /* CharacterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D73D03752124A89900BCC9F5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D73D03762124A89900BCC9F5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D73D03792124A89900BCC9F5 /* Debug */ = {

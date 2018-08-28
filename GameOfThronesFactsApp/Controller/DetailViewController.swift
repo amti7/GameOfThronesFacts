@@ -9,7 +9,6 @@
 import UIKit
 import LBTAComponents
 
-
 class DetailViewController: UIViewController {
     
     var character: Character?
@@ -76,12 +75,10 @@ class DetailViewController: UIViewController {
         checkOnlineButton.setTitle("Show more informations", for: .normal)
         checkOnlineButton.addTarget(self, action: #selector(openSafariAction), for: .touchUpInside)
 
-        
         if let character = character {
             characterTitle.text = character.title
             characterDetail.text = character.abstract
         }
-        
             setupLayout()
         }
     
@@ -89,13 +86,7 @@ class DetailViewController: UIViewController {
         let urlStringForUser = provideUrlWhenButtonClicked()
         if let url = URL(string: urlStringForUser) {
              UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        } else {
-//            let alertController = UIAlertController(title: "Error", message: "No Internet Connection", preferredStyle: .alert)
-//            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
-//            alertController.addAction(okAction)
-//            self.present(alertController, animated: true, completion: nil)
         }
-        
     }
     
     func provideUrlWhenButtonClicked() -> String {
@@ -109,18 +100,13 @@ class DetailViewController: UIViewController {
     func setupLayout() {
         
         let topImageViewContainer = UIView()
-        topImageViewContainer.backgroundColor = UIColor.white
         view.addSubview(topImageViewContainer)
+        topImageViewContainer.backgroundColor = UIColor.white
         topImageViewContainer.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-        
         topImageViewContainer.translatesAutoresizingMaskIntoConstraints = false
-        
-        
         topImageViewContainer.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        
         topImageViewContainer.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         topImageViewContainer.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        
         topImageViewContainer.addSubview(characterImageView)
         
         characterImageView.centerXAnchor.constraint(equalTo: topImageViewContainer.centerXAnchor).isActive = true

@@ -10,28 +10,28 @@
 		0D24FEFEF4298905C4AE3E9FC22DBC38 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C07808D3430FDE582E659AE7887817 /* TinyConstraints.swift */; };
 		0D333F7F0FD80F97F098E9C4C8AC59F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		10EECD797ADB1D4009616A3518FD339A /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3476D3A6015081D2A76D4ED22088BCF /* Datasource.swift */; };
+		16FD22E7B832333BE04C56E5980F1D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		32872FD31704779EB88A7014F4956A29 /* DefaultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2386A43A7E8064811E0E25F40BB859B /* DefaultCells.swift */; };
 		4DF7AA361C820F101BC38D086934B788 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C41B4CF60B7B8038BB98B3C39AD170 /* DiscardableImageCacheItem.swift */; };
+		5D7883739CD67D122A24E5418F333D75 /* Pods-GameOfThronesFacts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 491B98F789777F1EBDFD31E603226773 /* Pods-GameOfThronesFacts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		602071FBBC9CE2E7E138D4B67223D4A9 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4DA188FAAEF6F431F60A82514300 /* TinyConstraints-dummy.m */; };
 		6742ED0424B2BD4475AD0C0DC6D939E9 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3644A53142400B95713615E21975F7E8 /* CachedImageView.swift */; };
 		7F686C87FC60238F640B1973302B6D08 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59E96CA56FBD4CC959595A91956FA45 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80C64F8B50FDB2E25A939480C3FEC43A /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13EEBA2BB70B28850D4A08504A52280 /* TinyConstraints+superview.swift */; };
 		89DBECD09DDACD4EC4C1AF8C242CA946 /* LBTATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF9082EBC03FBB7F58179D84CC630A /* LBTATextView.swift */; };
-		8B47A17B57A058A4283E81428E61375A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		900B8997F1759ADFEDB2E8980DD9B211 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9083540034A19F13AE00F4F5A84E9D9 /* UIColor+Helper.swift */; };
 		9159870549A47838B2A1B5B7CA2CF93D /* DatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17887C6E7B4275FD60DF56282D06E0 /* DatasourceCell.swift */; };
 		A43CFE049F8ED02A3E056C1BFD813C4B /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDAA1BF3E7A8D1490A2AAFE0F0A4B29 /* UIView+Anchors.swift */; };
 		AC1C8AE0F266EC5EDCAA287123CEF8F5 /* LBTAComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF535969F4F0C01BC5873CFCEFCB93B /* LBTAComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC512EDA7BCD9F7296136478C37D7444 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E61CF6BF52FAB7E03FD46747D12C0 /* NSMutableAttributedString+Helper.swift */; };
 		ADE6BEE47203FC7D13382D654CA804D8 /* LBTALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34C7E31D5827E8BCDD6A4B270F76D7 /* LBTALabel.swift */; };
-		B91B7D44DBF7B684FC506E99D43E5326 /* Pods-GameOfThronesFactsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1419C1185F61DF343F35483F472BC1E5 /* Pods-GameOfThronesFactsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40B47273BCCE462EA426E1A66E0F6F5 /* Pods-GameOfThronesFacts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B76472F2BCE76E4A95DB9562EA8EF5BB /* Pods-GameOfThronesFacts-dummy.m */; };
 		CBF8630B51B556B1D93FF064C433A66E /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8043B19333BC30150441967AB0EE60 /* Constraints.swift */; };
 		CCAEE4BF0C676D5173590E04D29BAE92 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7036E53D3C8993C33096259ADE6A049 /* TinyEdgeInsets.swift */; };
 		CFF984D0BDE08492C60CC2D9C75E2C96 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF4A599AE0EFF029B89313F5FE15CB /* Abstraction.swift */; };
 		D087A1342467E1CB44410ADB2DC1DBA1 /* LBTAComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB992721F30FE0C5F6D3BC6963BB781E /* LBTAComponents-dummy.m */; };
 		D5575E844552163CF79CCC435B24F392 /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E70140A11DDBD28C0E5694890B03F3 /* UIButton+Helper.swift */; };
 		DF7A6BC0D371FF7ECA74781F562C475F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E03278DE40C865EF4D8E472A7352B7E /* Stack.swift */; };
-		E71CBA15D07405DF64C2AD178F4CEFC7 /* Pods-GameOfThronesFactsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5997EB6BC5BFB181BEEA7D2697D8594 /* Pods-GameOfThronesFactsApp-dummy.m */; };
 		E83278EE529B051A03768F5674A17555 /* DatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E568385993A585223BA05C632D0C11C /* DatasourceController.swift */; };
 		EAB56C7B2652650A976538B12FBAC59D /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2A5EDBE805D9E939409EF89A2AF62 /* Constrainable.swift */; };
 		F89DDE2BE4B4C16826AC30BBC21ACC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -39,14 +39,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B95F1BB1E1A876A60B865DAC1B6CA07 /* PBXContainerItemProxy */ = {
+		5BBF389ACBFE78563528E084B9811F8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
 			remoteInfo = TinyConstraints;
 		};
-		C6F4C222ECC8156C0D8B938E22C2AC7F /* PBXContainerItemProxy */ = {
+		8FD9F2CECF7F15C632FEDB144CDBE732 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -57,45 +57,44 @@
 
 /* Begin PBXFileReference section */
 		0CDF4A599AE0EFF029B89313F5FE15CB /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
-		1419C1185F61DF343F35483F472BC1E5 /* Pods-GameOfThronesFactsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameOfThronesFactsApp-umbrella.h"; sourceTree = "<group>"; };
-		142815761C5B7AFCCECB229866F20B64 /* Pods-GameOfThronesFactsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameOfThronesFactsApp-Info.plist"; sourceTree = "<group>"; };
+		12AB55A617364344FBDC7342504241CD /* Pods-GameOfThronesFacts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GameOfThronesFacts.modulemap"; sourceTree = "<group>"; };
 		1D8043B19333BC30150441967AB0EE60 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
 		246B4371AE0E525351608DCD7512B9F5 /* LBTAComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBTAComponents-Info.plist"; sourceTree = "<group>"; };
 		248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD6F572A0517EF6CDC76EEFD8D5E5C1 /* LBTAComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTAComponents.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		342C4DA188FAAEF6F431F60A82514300 /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
-		34850015E3000AA06BCD69D1926582E3 /* Pods-GameOfThronesFactsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameOfThronesFactsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3644A53142400B95713615E21975F7E8 /* CachedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedImageView.swift; path = LBTAComponents/Classes/CachedImageView.swift; sourceTree = "<group>"; };
+		3BCF84E5ED4FB3FDA13CFFD1A28E60DE /* Pods-GameOfThronesFacts-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameOfThronesFacts-acknowledgements.plist"; sourceTree = "<group>"; };
 		3BF535969F4F0C01BC5873CFCEFCB93B /* LBTAComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-umbrella.h"; sourceTree = "<group>"; };
-		4A0EF8A3055DC8C299BCE3C20C8B5885 /* Pods-GameOfThronesFactsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameOfThronesFactsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		491B98F789777F1EBDFD31E603226773 /* Pods-GameOfThronesFacts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameOfThronesFacts-umbrella.h"; sourceTree = "<group>"; };
 		5D8E61CF6BF52FAB7E03FD46747D12C0 /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Helper.swift"; path = "LBTAComponents/Classes/NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
 		5E568385993A585223BA05C632D0C11C /* DatasourceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceController.swift; path = LBTAComponents/Classes/DatasourceController.swift; sourceTree = "<group>"; };
 		5EDAA1BF3E7A8D1490A2AAFE0F0A4B29 /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "LBTAComponents/Classes/UIView+Anchors.swift"; sourceTree = "<group>"; };
+		6A508EA7F3A6B8F88CE58BA59BE2C6A1 /* Pods-GameOfThronesFacts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameOfThronesFacts-Info.plist"; sourceTree = "<group>"; };
 		6C59B339E434E5D7B7354CCF5F0CA45E /* LBTAComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTAComponents.framework; path = LBTAComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E03278DE40C865EF4D8E472A7352B7E /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
 		7F81FF5050226E8E69F99ED494053AFC /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
 		80F2A5EDBE805D9E939409EF89A2AF62 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
 		842154FD022058F1610B18290BC1BEF4 /* LBTAComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-prefix.pch"; sourceTree = "<group>"; };
-		8BEF3255CEE7198E1F214F4DA684076D /* Pods-GameOfThronesFactsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameOfThronesFactsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		847716E10D4AA3A3D2E7CC95CFB836BB /* Pods-GameOfThronesFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameOfThronesFacts.debug.xcconfig"; sourceTree = "<group>"; };
 		9A34C7E31D5827E8BCDD6A4B270F76D7 /* LBTALabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTALabel.swift; path = LBTAComponents/Classes/LBTALabel.swift; sourceTree = "<group>"; };
 		9D17887C6E7B4275FD60DF56282D06E0 /* DatasourceCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceCell.swift; path = LBTAComponents/Classes/DatasourceCell.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1712917D6DDA246ECF1039DEA86EEC1 /* Pods-GameOfThronesFacts-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameOfThronesFacts-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A59E96CA56FBD4CC959595A91956FA45 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		A74F1597CDDBD45355C096C5B0687C97 /* Pods-GameOfThronesFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameOfThronesFacts.release.xcconfig"; sourceTree = "<group>"; };
 		AD6AB07AF1891000920CD15E4A07BBB4 /* UIImage+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Helper.swift"; path = "LBTAComponents/Classes/UIImage+Helper.swift"; sourceTree = "<group>"; };
 		AD890C0D268A2348747C585F9B2EBCF3 /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
 		B5FF9082EBC03FBB7F58179D84CC630A /* LBTATextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTATextView.swift; path = LBTAComponents/Classes/LBTATextView.swift; sourceTree = "<group>"; };
 		B7036E53D3C8993C33096259ADE6A049 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		B76472F2BCE76E4A95DB9562EA8EF5BB /* Pods-GameOfThronesFacts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameOfThronesFacts-dummy.m"; sourceTree = "<group>"; };
 		B9083540034A19F13AE00F4F5A84E9D9 /* UIColor+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "LBTAComponents/Classes/UIColor+Helper.swift"; sourceTree = "<group>"; };
+		BD0887673C3C566A39E2ADD7ABE24E88 /* Pods_GameOfThronesFacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GameOfThronesFacts.framework; path = "Pods-GameOfThronesFacts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0934ABC26CC298987497A7CE44BA79B /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
-		C7FB35EA080F48AE79080A3E8EA4EB54 /* Pods-GameOfThronesFactsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GameOfThronesFactsApp.modulemap"; sourceTree = "<group>"; };
-		C87F9F5B79B7FFF832E289DEBA9328EC /* Pods-GameOfThronesFactsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameOfThronesFactsApp.release.xcconfig"; sourceTree = "<group>"; };
 		C9CD3A55D9FC9D574003A7A72BC580EE /* LBTAComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTAComponents.release.xcconfig; sourceTree = "<group>"; };
-		CF6A69EED8968081587D1A53B06ED35E /* Pods-GameOfThronesFactsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameOfThronesFactsApp-frameworks.sh"; sourceTree = "<group>"; };
 		D21364DE90BB95D7B52C0102FDBEC3A3 /* TinyConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.release.xcconfig; sourceTree = "<group>"; };
-		D5997EB6BC5BFB181BEEA7D2697D8594 /* Pods-GameOfThronesFactsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameOfThronesFactsApp-dummy.m"; sourceTree = "<group>"; };
 		D9C07808D3430FDE582E659AE7887817 /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
-		DE13A6C504CFC3F1EEC0EB12E2E731C5 /* Pods_GameOfThronesFactsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GameOfThronesFactsApp.framework; path = "Pods-GameOfThronesFactsApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB85CFB5AE13B758262B60780AB7041 /* LBTAComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTAComponents.modulemap; sourceTree = "<group>"; };
 		E13EEBA2BB70B28850D4A08504A52280 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
 		E3C41B4CF60B7B8038BB98B3C39AD170 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscardableImageCacheItem.swift; path = LBTAComponents/Classes/DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
@@ -103,18 +102,11 @@
 		F191EF7A68826EB2E5EEBDF893668ACB /* TinyConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.debug.xcconfig; sourceTree = "<group>"; };
 		F2386A43A7E8064811E0E25F40BB859B /* DefaultCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCells.swift; path = LBTAComponents/Classes/DefaultCells.swift; sourceTree = "<group>"; };
 		F3476D3A6015081D2A76D4ED22088BCF /* Datasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Datasource.swift; path = LBTAComponents/Classes/Datasource.swift; sourceTree = "<group>"; };
+		F7DFE9A0F94B43A6CDDF49905ABFFC01 /* Pods-GameOfThronesFacts-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameOfThronesFacts-frameworks.sh"; sourceTree = "<group>"; };
 		FB992721F30FE0C5F6D3BC6963BB781E /* LBTAComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTAComponents-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D3A6B17718E35CFCF7263D43E6B5497 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B47A17B57A058A4283E81428E61375A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		36535A7B888AFE58F76BDA6B07CEB9C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,9 +123,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4602769DC6C91F06393C3A1C8EECC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FD22E7B832333BE04C56E5980F1D5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D97DC4B522B33C9220ED57F25757A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C59B339E434E5D7B7354CCF5F0CA45E /* LBTAComponents.framework */,
+				BD0887673C3C566A39E2ADD7ABE24E88 /* Pods_GameOfThronesFacts.framework */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		371A651374CB53EBB44E1E189ECB0AEA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,39 +159,12 @@
 			path = "../Target Support Files/LBTAComponents";
 			sourceTree = "<group>";
 		};
-		3E5F824A9429FC582A79C81B7DB80D28 /* Products */ = {
+		A870FD0DFFA56037AE77CA0037939D64 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6C59B339E434E5D7B7354CCF5F0CA45E /* LBTAComponents.framework */,
-				DE13A6C504CFC3F1EEC0EB12E2E731C5 /* Pods_GameOfThronesFactsApp.framework */,
-				248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		99AE9346A64B88DD12B06292C8E943C1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A98BC0935234E32BEF377D049BEE0139 /* Pods-GameOfThronesFactsApp */,
+				E94120D24A485E67C6BF5C00690FC58A /* Pods-GameOfThronesFacts */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A98BC0935234E32BEF377D049BEE0139 /* Pods-GameOfThronesFactsApp */ = {
-			isa = PBXGroup;
-			children = (
-				C7FB35EA080F48AE79080A3E8EA4EB54 /* Pods-GameOfThronesFactsApp.modulemap */,
-				8BEF3255CEE7198E1F214F4DA684076D /* Pods-GameOfThronesFactsApp-acknowledgements.markdown */,
-				4A0EF8A3055DC8C299BCE3C20C8B5885 /* Pods-GameOfThronesFactsApp-acknowledgements.plist */,
-				D5997EB6BC5BFB181BEEA7D2697D8594 /* Pods-GameOfThronesFactsApp-dummy.m */,
-				CF6A69EED8968081587D1A53B06ED35E /* Pods-GameOfThronesFactsApp-frameworks.sh */,
-				142815761C5B7AFCCECB229866F20B64 /* Pods-GameOfThronesFactsApp-Info.plist */,
-				1419C1185F61DF343F35483F472BC1E5 /* Pods-GameOfThronesFactsApp-umbrella.h */,
-				34850015E3000AA06BCD69D1926582E3 /* Pods-GameOfThronesFactsApp.debug.xcconfig */,
-				C87F9F5B79B7FFF832E289DEBA9328EC /* Pods-GameOfThronesFactsApp.release.xcconfig */,
-			);
-			name = "Pods-GameOfThronesFactsApp";
-			path = "Target Support Files/Pods-GameOfThronesFactsApp";
 			sourceTree = "<group>";
 		};
 		BEFF3497EEA56D56A6307097834CB4BE /* TinyConstraints */ = {
@@ -214,8 +197,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E56904958B2CEDFE7D6318CD82E2B5AF /* Pods */,
-				3E5F824A9429FC582A79C81B7DB80D28 /* Products */,
-				99AE9346A64B88DD12B06292C8E943C1 /* Targets Support Files */,
+				0D97DC4B522B33C9220ED57F25757A63 /* Products */,
+				A870FD0DFFA56037AE77CA0037939D64 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,6 +217,23 @@
 				BEFF3497EEA56D56A6307097834CB4BE /* TinyConstraints */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E94120D24A485E67C6BF5C00690FC58A /* Pods-GameOfThronesFacts */ = {
+			isa = PBXGroup;
+			children = (
+				12AB55A617364344FBDC7342504241CD /* Pods-GameOfThronesFacts.modulemap */,
+				A1712917D6DDA246ECF1039DEA86EEC1 /* Pods-GameOfThronesFacts-acknowledgements.markdown */,
+				3BCF84E5ED4FB3FDA13CFFD1A28E60DE /* Pods-GameOfThronesFacts-acknowledgements.plist */,
+				B76472F2BCE76E4A95DB9562EA8EF5BB /* Pods-GameOfThronesFacts-dummy.m */,
+				F7DFE9A0F94B43A6CDDF49905ABFFC01 /* Pods-GameOfThronesFacts-frameworks.sh */,
+				6A508EA7F3A6B8F88CE58BA59BE2C6A1 /* Pods-GameOfThronesFacts-Info.plist */,
+				491B98F789777F1EBDFD31E603226773 /* Pods-GameOfThronesFacts-umbrella.h */,
+				847716E10D4AA3A3D2E7CC95CFB836BB /* Pods-GameOfThronesFacts.debug.xcconfig */,
+				A74F1597CDDBD45355C096C5B0687C97 /* Pods-GameOfThronesFacts.release.xcconfig */,
+			);
+			name = "Pods-GameOfThronesFacts";
+			path = "Target Support Files/Pods-GameOfThronesFacts";
 			sourceTree = "<group>";
 		};
 		EE444A6A2A318924BCE342E508DB8C9C /* Support Files */ = {
@@ -276,19 +276,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F1946F9290ABC6A09005DCCD989AB1B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B91B7D44DBF7B684FC506E99D43E5326 /* Pods-GameOfThronesFactsApp-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		98FE3D0A640F390EA7AEA8E88F47DEDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F686C87FC60238F640B1973302B6D08 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9967B38498313946B5ABE3CF74C672D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7883739CD67D122A24E5418F333D75 /* Pods-GameOfThronesFacts-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,24 +339,24 @@
 			productReference = 6C59B339E434E5D7B7354CCF5F0CA45E /* LBTAComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B01648AB716B8F800F3606CCC957AD32 /* Pods-GameOfThronesFactsApp */ = {
+		882A65D8187654C8F40A56992BF22E7C /* Pods-GameOfThronesFacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2CEFF6E7D46F138B46F0766494405BD /* Build configuration list for PBXNativeTarget "Pods-GameOfThronesFactsApp" */;
+			buildConfigurationList = 20DBC322034CB4D5071E9E6DCA2F9086 /* Build configuration list for PBXNativeTarget "Pods-GameOfThronesFacts" */;
 			buildPhases = (
-				0F1946F9290ABC6A09005DCCD989AB1B /* Headers */,
-				B79424B9090FD33F85BFE680BFD03BAF /* Sources */,
-				1D3A6B17718E35CFCF7263D43E6B5497 /* Frameworks */,
-				1A258A991529DC3DDA8F9AC4E94F863C /* Resources */,
+				9967B38498313946B5ABE3CF74C672D8 /* Headers */,
+				4CEE081506A6012EDD98A0CFF848ADA0 /* Sources */,
+				E4602769DC6C91F06393C3A1C8EECC6E /* Frameworks */,
+				AA91833071220E0633949F51549855C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3C0356910C0ACAF6B6867F61E0408D40 /* PBXTargetDependency */,
-				513AB40D6B122B5CED2079B156057FB5 /* PBXTargetDependency */,
+				2FB9DD77A3D4A0C3C72902A4817B0073 /* PBXTargetDependency */,
+				54C88E3B610A2CECC9BBE699A6F13DA1 /* PBXTargetDependency */,
 			);
-			name = "Pods-GameOfThronesFactsApp";
-			productName = "Pods-GameOfThronesFactsApp";
-			productReference = DE13A6C504CFC3F1EEC0EB12E2E731C5 /* Pods_GameOfThronesFactsApp.framework */;
+			name = "Pods-GameOfThronesFacts";
+			productName = "Pods-GameOfThronesFacts";
+			productReference = BD0887673C3C566A39E2ADD7ABE24E88 /* Pods_GameOfThronesFacts.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -377,25 +377,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3E5F824A9429FC582A79C81B7DB80D28 /* Products */;
+			productRefGroup = 0D97DC4B522B33C9220ED57F25757A63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				507F07FC62AFC9C6A73513E671361060 /* LBTAComponents */,
-				B01648AB716B8F800F3606CCC957AD32 /* Pods-GameOfThronesFactsApp */,
+				882A65D8187654C8F40A56992BF22E7C /* Pods-GameOfThronesFacts */,
 				45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A258A991529DC3DDA8F9AC4E94F863C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		36FA3571E4A62620DF0B5E861577DCC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,6 +397,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7465A1319E37DADA12A8BAEB409143AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA91833071220E0633949F51549855C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -434,6 +434,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CEE081506A6012EDD98A0CFF848ADA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40B47273BCCE462EA426E1A66E0F6F5 /* Pods-GameOfThronesFacts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B22F16F1C73358E59AE260C86E3D1F1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,32 +457,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B79424B9090FD33F85BFE680BFD03BAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E71CBA15D07405DF64C2AD178F4CEFC7 /* Pods-GameOfThronesFactsApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C0356910C0ACAF6B6867F61E0408D40 /* PBXTargetDependency */ = {
+		2FB9DD77A3D4A0C3C72902A4817B0073 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBTAComponents;
 			target = 507F07FC62AFC9C6A73513E671361060 /* LBTAComponents */;
-			targetProxy = C6F4C222ECC8156C0D8B938E22C2AC7F /* PBXContainerItemProxy */;
+			targetProxy = 8FD9F2CECF7F15C632FEDB144CDBE732 /* PBXContainerItemProxy */;
 		};
-		513AB40D6B122B5CED2079B156057FB5 /* PBXTargetDependency */ = {
+		54C88E3B610A2CECC9BBE699A6F13DA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TinyConstraints;
 			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
-			targetProxy = 5B95F1BB1E1A876A60B865DAC1B6CA07 /* PBXContainerItemProxy */;
+			targetProxy = 5BBF389ACBFE78563528E084B9811F8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2C41B0D4F41606E22E11D202BEDC3BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74F1597CDDBD45355C096C5B0687C97 /* Pods-GameOfThronesFacts.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GameOfThronesFacts/Pods-GameOfThronesFacts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameOfThronesFacts/Pods-GameOfThronesFacts.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3FC8A6FC7931648D213BD1C9C6101A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DD6F572A0517EF6CDC76EEFD8D5E5C1 /* LBTAComponents.debug.xcconfig */;
@@ -569,6 +604,40 @@
 			};
 			name = Release;
 		};
+		67146C83F7CE8F0D40B988F6DE39AE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847716E10D4AA3A3D2E7CC95CFB836BB /* Pods-GameOfThronesFacts.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GameOfThronesFacts/Pods-GameOfThronesFacts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameOfThronesFacts/Pods-GameOfThronesFacts.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6ACE01E101CD05C2D9274B28BE586706 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -627,41 +696,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8B96CE664E5B02297F8E3666C595E6EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C87F9F5B79B7FFF832E289DEBA9328EC /* Pods-GameOfThronesFactsApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -762,43 +796,18 @@
 			};
 			name = Release;
 		};
-		C1845FF5126DC647DF690B21F2557626 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34850015E3000AA06BCD69D1926582E3 /* Pods-GameOfThronesFactsApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GameOfThronesFactsApp/Pods-GameOfThronesFactsApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20DBC322034CB4D5071E9E6DCA2F9086 /* Build configuration list for PBXNativeTarget "Pods-GameOfThronesFacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67146C83F7CE8F0D40B988F6DE39AE7E /* Debug */,
+				2C41B0D4F41606E22E11D202BEDC3BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -822,15 +831,6 @@
 			buildConfigurations = (
 				5174AF0CBFCB57F6F8E78B901A5387A1 /* Debug */,
 				BE5B140BFE7F1037F3F2120348C63925 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2CEFF6E7D46F138B46F0766494405BD /* Build configuration list for PBXNativeTarget "Pods-GameOfThronesFactsApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1845FF5126DC647DF690B21F2557626 /* Debug */,
-				8B96CE664E5B02297F8E3666C595E6EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

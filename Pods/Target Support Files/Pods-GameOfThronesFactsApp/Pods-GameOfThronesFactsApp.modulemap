@@ -1,6 +1,0 @@
-framework module Pods_GameOfThronesFactsApp {
-  umbrella header "Pods-GameOfThronesFactsApp-umbrella.h"
-
-  export *
-  module * { export * }
-}

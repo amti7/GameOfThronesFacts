@@ -6,7 +6,7 @@
 //  Copyright © 2018 Kamil Gacek. All rights reserved.
 //
 
-struct Character: Decodable {
+struct Character: Codable {
     var title: String
     var abstract: String
     var thumbnail: String

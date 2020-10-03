@@ -1,0 +1,13 @@
+//
+//  configuration.xcconfig
+//  GameOfThronesFactsApp
+//
+//  Created by Kamil on 02/10/2020.
+//  Copyright © 2020 Kamil Gacek. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+server_host = gameofthrones.fandom.com
+server_scheme = https

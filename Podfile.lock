@@ -1,16 +1,21 @@
 PODS:
   - LBTAComponents (1.0.2)
+  - TinyConstraints (4.0.1)
 
 DEPENDENCIES:
   - LBTAComponents
+  - TinyConstraints (= 4.0.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - LBTAComponents
+  trunk:
+    - TinyConstraints
 
 SPEC CHECKSUMS:
   LBTAComponents: c4c8863e0ef6715e378300db148b96a09df656f7
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
 
-PODFILE CHECKSUM: 8a0a3d683ae0f4e213261dce85a7344fd1d58287
+PODFILE CHECKSUM: e0831cdee41a52c19c7c3f167b36b747e0859a6a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0.rc.1

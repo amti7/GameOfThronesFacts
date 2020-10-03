@@ -40,5 +40,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>server_scheme</key>
+	<string>$(server_scheme)</string>
+	<key>server_host</key>
+	<string>$(server_host)</string>
 </dict>
 </plist>

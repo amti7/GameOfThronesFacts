@@ -6,5 +6,6 @@ target 'GameOfThronesFactsApp' do
   use_frameworks!
 
   # Pods for GameOfThronesFactsApp
-  pod "LBTAComponents"
+  pod 'LBTAComponents'
+  pod 'TinyConstraints', '4.0.1'
 end
